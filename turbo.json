@@ -1,0 +1,10 @@
+{
+  "$schema": "./public/schema.json",
+  "extends": ["//"],
+  "pipeline": {
+    "build": {
+      "outputs": ["dist"],
+      "dependsOn": ["^build"]
+    }
+  }
+}

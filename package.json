@@ -1,0 +1,13 @@
+{
+  "name": "monorepo",
+  "scripts": {
+    "build": "dotenv -e .env -- turbo run build"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "dependencies": {
+    "dotenv-cli": "^7.2.1",
+    "turbo": "^1.9.0"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "astro-app",
+  "scripts": {
+    "build": "env"
+  }
+}
